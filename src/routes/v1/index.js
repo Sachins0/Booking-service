@@ -2,7 +2,7 @@
 const express = require('express');
 
 const { InfoController } = require('../../controllers');
-const bookingRoutes = require('./booking');
+const bookingRoutes = require('./booking-routes');
 
 const router = express.Router();
 
